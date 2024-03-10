@@ -10,15 +10,14 @@
         #format{
             background-color: white;
             width: 400px;
-            height: 650px;
+            height: auto;
             margin: 20px;
-            margin-left: 30%;
-            margin-bottom: 70px;
+            margin-left: 60px auto;
             padding: 30px;
-            text-align: left;
-            border-radius: 20px;
+            text-align: center;
+            border-radius: 10px;
             font-family: 'Times New Roman', Times, serif;
-            position: static;
+            display: flex;
 
         }
         input{
@@ -28,7 +27,7 @@
             height: 30px;
             margin: 10px;
             margin-top: 30px;
-            border-radius: 10px;
+            border-radius: 8px;
             border-bottom: 3px solid black;
         }
         .refer{
@@ -71,18 +70,19 @@
 <body>
     <div id="format">
     <form>
+        NEW USER REGISTRATION FORM
         <input type="text" placeholder="Firstname" required>
         <input type="text" placeholder="Lastname" required>
         <input type="email" placeholder="Valid Email" required>
         <input type="number" placeholder="Phone No" required>
         <input list="user" name="customer level" placeholder=" Select User type">
-        <datalist id="user">
-        <option value="customer">
-        <option value="agent">
-        <option value="merchant">
+        <datalist id="user" name="user">
+        <option value="customer" name="user">
+        <option value="agent" name="user">
+        <option value="merchant" name="user">
     </datalist>
     <br>
-        what is a secure password?
+        what is a secure password? <br>
         <input type="password" placeholder="Password" required>
         <input type="text" placeholder="Confirm Password" required>
     Refered?<input type="checkbox" class="refer">
