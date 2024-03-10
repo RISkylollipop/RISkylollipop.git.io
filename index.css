@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif; }
+
+body {
+  background-color: blue;
+  height: 100vh; }
+
+header {
+  width: 100%;
+  background: wheat;
+  text-align: center;
+  margin: 0;
+  height: 200px; }
+  header div {
+    margin: auto;
+    padding: 50px; }
+
+.firstview background-image {
+  display: contents; }
+
+#our {
+  margin-top: 60px; }
+
+#wrap {
+  display: flex;
+  flex-wrap: wrap; }
+  #wrap div {
+    width: 300px;
+    overflow: hidden;
+    column-width: 300px 300px auto;
+    margin: 40px auto;
+    padding: 0 10px;
+    line-height: 30px;
+    background: #138a13;
+    border-radius: 8px;
+    box-shadow: 6px 6px 10px;
+    cursor: pointer; }
+  #wrap .wrap h3 {
+    align-items: center;
+    text-align: center; }
+  #wrap .wrap h3::before {
+    content: ''; }
+  #wrap h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: larger; }
+  #wrap h3 {
+    font-family: 'Courier New', Courier, monospace;
+    position: relative; }
+    #wrap h3 .img {
+      margin: 0;
+      width: 50px;
+      height: 250px;
+      float: left; }
+  #wrap .wrap:hover {
+    background-color: greenyellow;
+    color: white;
+    font-weight: bolder; }
+
+.build {
+  width: 600px;
+  margin: 60px auto;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 800;
+  color: blue; }
+
+.largeimage {
+  display: flex;
+  flex-wrap: wrap; }
+
+.largeimage img {
+  margin: 20px auto;
+  height: 500px;
+  width: 250px;
+  padding: 20px; }
+
+.air2cash {
+  width: 400px;
+  margin: 60px auto;
+  background: blueviolet;
+  color: white;
+  text-align: center;
+  text-overflow: hidden;
+  padding: 10px;
+  line-height: 30px; }
+
+.air2cash1 {
+  align-content: center;
+  text-align: center;
+  color: blueviolet;
+  width: 300px;
+  height: auto;
+  margin: 0 auto;
+  text-overflow: hidden;
+  background: azure;
+  cursor: pointer;
+  line-height: 30px; }
+
+.air2cash1 summary {
+  display: block;
+  text-align: center;
+  font-size: 15px;
+  margin-top: 0px; }
+
+.air2cash1 li {
+  list-style: none;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 400; }
+
+.air2cash1 h4 {
+  text-align: center;
+  font-size: 15px;
+  color: blue; }
+
+.airtime2cash {
+  width: 300px;
+  align-content: normal;
+  text-align: center;
+  background-color: azure;
+  margin: 0;
+  padding: 0; }
+
+.airtime2cash li {
+  width: 250px;
+  color: blue;
+  line-height: 20px;
+  list-style: disc;
+  text-align: left;
+  transition: width 5secs, padding 5secs; }
+
+.airtime2cash ul li {
+  color: red;
+  align-items: center;
+  text-align: center;
+  font-weight: 600;
+  padding: 10px; }
+
+.airtime2cash summary {
+  display: block;
+  font-size: 20px; }
+
+/*# sourceMappingURL=index.css.map */

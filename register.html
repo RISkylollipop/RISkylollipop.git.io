@@ -1,0 +1,90 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <style>
+        body{
+            background-color: rgb(87, 87, 233);
+        }
+        #format{
+            background-color: white;
+            width: 400px;
+            height: 650px;
+            margin: 20px;
+            margin-left: 30%;
+            margin-bottom: 70px;
+            padding: 30px;
+            text-align: left;
+            border-radius: 20px;
+            font-family: 'Times New Roman', Times, serif;
+            position: static;
+
+        }
+        input{
+            font-size: 25px;
+            font-family: 'Times New Roman', Times, serif;
+            width: 350px;
+            height: 30px;
+            margin: 10px;
+            margin-top: 30px;
+            border-radius: 10px;
+            border-bottom: 3px solid black;
+        }
+        .refer{
+            width: 10px;
+            height: 10px;
+        }
+        .but{
+            background-color: blue;
+            font-size: 20px;
+            width: 380px;
+            height: 30px;
+            border-radius: 10px;
+            margin: 3px;
+        }
+        .but:hover{
+            background-color: brown;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        @media( min-width: 599px) {
+            #format{
+                text-align: center;
+                background-color: yellow;
+                font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+            }
+            input{
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                border-bottom: 3px solid red;
+            }
+
+        }
+    </style>
+</head>
+<body>
+    <div id="format">
+    <form>
+        <input type="text" placeholder="Firstname" required>
+        <input type="text" placeholder="Lastname" required>
+        <input type="email" placeholder="Valid Email" required>
+        <input type="number" placeholder="Phone No" required>
+        <input list="user" name="customer level" placeholder=" Select User type">
+        <datalist id="user">
+        <option value="customer">
+        <option value="agent">
+        <option value="merchant">
+    </datalist>
+    <br>
+        what is a secure password?
+        <input type="password" placeholder="Password" required>
+        <input type="text" placeholder="Confirm Password" required>
+    Refered?<input type="checkbox" class="refer">
+    
+    </form>
+    <a href="login.html"> <button class="but">Sign_up</button></a>
+    Already Register?
+    <a href="login.html"><button class="but">Sign_in</button></a>
+</div>
+</body>
+</html>

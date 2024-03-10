@@ -2,63 +2,216 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LOGIN</title>
+    <title>MY WEBPAGE!</title>
     <style>
-        body{
-            background-color: rgb(96, 96, 223);
-        }
-        #login{
-            background-color: rgb(245, 222, 222);
-            width: 400px;
-            height: 500px;
-            margin: 70px;
-            padding: 50px;
-        }
-        h4{
+        #firstview{
+            background-color: rgb(4, 4, 92 -1);
+            background-position: center;
+            width: 300px;
+            margin: 10px auto;
+            color: white;
             text-align: center;
-            font-size: 30px;
+            font-size: 30px;  
         }
-        button{
-            background-color: blue;
+        .firstview{
+            width: 80%;
+            max-height: min-content;      
+            background-image: url(social.svg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            margin: 20px;
+            padding: 40px;
+            color: white;
+            font-family: 'Times New Roman', Times, serif;
             font-size: 25px;
-            width: 340px;
-            border-radius: 10px;
-            padding: 5px;
-            margin: 3px;
-            border: transparent;
-            
-        }
-        input{
             text-align: center;
-            font-size: 20px;
-            height: 50px;
-            width: 350px;
-            border-radius: 10px;
-            border: transparent;
         }
-        .box{
-            width: 10px;
-            height: 10px;
+        .button{
+            width: 100px;
+            height: 50px;
+            border-radius: 10px;
+            color: rgb(105, 105, 241);
+            background-color: aquamarine;
+            margin: 20px;
+
+        }
+        a{
+            text-decoration: none;
+            color: rgb(105, 105, 241);
         }
         button:hover{
             background-color: brown;
-            border-bottom: 3px solid black;
+            color: antiquewhite;
         }
-        
+        #pay{
+            color: black;
+            font-family: 'Times New Roman', Times, serif;
+            text-align: center;
+        }
+        #pay p:hover{
+            background-color: blue;
+            font-size: 25px;
+            color: white;
+        }
+        @media (min-width: 599px){
+            .firstview{
+                background-color: red;
+                width: 70%;
+                margin: 60px auto;
+            }
+            body{
+                background: white;
+            }
+        }
+        .wrap{
+            flex-wrap: wrap;
+            margin-top: 10px;
+        }
+        .wrap:hover{
+            background-color: rgb(7, 14, 11);
+            color: white;
+        }
+        #firstview{
+            position: static;
+        }
+
     </style>
+    <link rel="stylesheet" href="index.css">
+    <link rel="shoutcut icon" href="ofice.jpeg" type="image/x-icon">
 </head>
 <body>
-    <div id="login">
-    <div class="login"> <h4>Sign_in To Start Your Session!</h4>
-    <input type="email" placeholder="Email address..."><br><br>
-    <input type="password" placeholder="Password">
+    <header><div id="firstview">MY WEBPAGE!!!!!!</div></header>
+    
+    <div class="firstview" style="text-align: center;">
+    <h4>WELCOME TO DATAPLANET</h4>
+    <h3><b>Easiest Solution To All Your Telecom Needs</b></h3>
+    <p><b>DATAHOODPAY</b> Has Made it Possible to Conveniently Convert 
+        Airtime to Cash, Pay Varieties of Utility Bills and Merchants Instantly with Ease, 
+        Deliver Data Subscription and Airtime Top Up Automatedly, Send Bulk SMS, amongst others.
+    </p>
 </div>
-<br>
-<input type="checkbox" class="box">Remember me
-<a href="home.html">
-<button>Sign_in</button></a>
-<a href="register.html">
-    <button class="button">Sign_up</button></a>
+    <div style="text-align: center;">
+        <a href="login.html">
+    <button class="button">LOGIN</button></a>
+    <a href="register.html">
+    <button class="button">REGISTER</button></a>
+</div>
+
+    <div id="pay">
+        <h1>PAY-AS-YOU-GO</h1>
+            <P>Let’s Make Data Available Quickly for Your Urgent Need!<br> 
+                Receive Value in Just a Few Clicks Without Registering! <br>
+                (You May Have to Register and Upgrade Your Account for Cheaper Plans)</P>  
+    </div>
+    
+    <div style="text-align: center;">
+    <a href="register.html"><button class="button">CHECKOUT</button></a>
+</div>
+<div class="air2cash">
+    <h4>AIRTIME TO CASH</h4>
+    Were you just gifted airtime by a friend or a family member; 
+    or you has a erroneous excess airtime recharge from your bank account
+    and you wanted to convert it to cash.
+    DATAPLANET as made it conveniently convert the airtime to cash and pay bills with the Airtime.
+</div>
+<div class="air2cash1">
+    <details>
+        <summary>GUILDLINE FOR AIRTIME TO CASH</summary>
+        <ol>
+            <h4>Steps to convert Airtime to Cash</h4>
+            <li>Register your account</li>
+            <li>Select Airtime to cash at the sidebar on the dashboard</li>
+            <li>Follow the Instruction provided</li>
+            <li>Transfer the airtime to the designated number</li>
+            <li>fill and complete the form and submit</li>
+            <li>provide your bank account details in the account setting</li>
+        </ol>
+    </details>
+</div>
+<div><h1 style="text-align: center;" id="our">OUR SERVICE!!!</h1></div>
+<div id="wrap">
+<div class="wrap">
+    <h3>AIRTIME TO CASH!</h3>
+<p> 
+    Were you just gifted airtime by a friend; or you had an erroneous
+     excess airtime recharge from your bank? DATAPLANET has made it possible 
+    to conveniently convert airtime to cash and pay bills with airtime.</p>
+    <div class="airtime2cash">
+        <details>
+        <summary>GUILDLINE</summary>
+           
+                <h4>Steps to convert Airtime to Cash</h4>
+                <ol>
+                    <li>Register and Log in into your account</li>
+                <li>Select Airtime to cash on the sidebar</li>
+                <li>Fill out the form correctly and submit</li>
+                <li>Transfer the airtime to the designated number and await confirmation</li>
+                <li>Set up your account details in the account settiings</li>
+                <li>Wait for your Account to be wallet/Credited</li>
+    
+                </ol>
+            </details>
+     </div>
+</div>
+ 
+<div class="wrap">
+    <h3>DATA AND AIRTIME TOP UP!</h3> 
+    DATAPLANET takes care of all your Data and Airtime Top-up; bulk orders or single. Data works perfectly on all devices. 
+    Enjoy up to 10% discount on Airtime and Data Top-Up as you Upgrade your account!.
+    <div class="airtime2cash">
+        <details>
+        <summary>GUILDLINE</summary>
+           
+                <h4>Steps to Buy Data and Airtime</h4>
+                <ol>
+                    <li>Register and Log in into your account</li>
+                <li>Select Buy Data/Airtime in the sidebar of the dashboard</li>
+                <li>Select Data or Airtime and fill out the form correctly</li>
+                <li>click on proceed and verify/check the prompt message</li>
+                <li>Wait for the data to be credited in second</li>
+                <ul>
+                    NOTE:
+                    <li>
+                        Successful data are not reversib
+                    </li>
+                </ul>
+    
+                </ol>
+            </details>
+     </div>
+</div>
+
+<div class="wrap"><h3>CABLE TV PAYMENTS!</h3>
+    With our Easy-to-use platform, 
+        DATAPLANET has made DSTV, GoTV and Startimes subscription completely easier
+        than going on a date with your best friend! Remember life shouldn’t be hard.
+
+</div>
+<div class="wrap">
+    <h3>ELECTRICITY BILL PAYMENTS!</h3>
+    Electricity Bill payment has been simplified and discounted on our platform! With the help of DATAPLANET, 
+    you can pay your electricity bills from the convenience of your home at no extra cost!
+</div>
+<div class="wrap">
+    <h3>BULK SMS SERVICES!</h3>
+    Reaching a wide range of people via Bulk SMS just got amazingly easier through DATAPLANET! Conveniently 
+    deliver SMS to all networks at the cheapest rate you can think of!
+</div>
+<div class="wrap">
+<h3>INVESTMENTS!</h3>
+Working for money can be quite rigorous! DATAPLANET influences your right financial decisions with our investment platform! 
+You would stop wondering where your money went when you tell it where to go!
+</div>
+</div>
+
+<div class="build">
+    Let Us Build You A Website Exactly Like Ours! 
+    Here Is What Is in It for You.
+</div>
+
+<div class="largeimage">
+    <img src="download.jpeg" alt="download image">
 </div>
 </body>
 </html>
