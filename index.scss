@@ -7,7 +7,7 @@ $body: green;
     font-family: Arial, Helvetica, sans-serif;
 }
 body{
-    background-color: $body;
+    background-color: green;
     height: 100vh;
 }
 header{
@@ -20,9 +20,6 @@ header{
         margin: auto;
         padding: 50px;
     }
-}
-.firstview background-image{
-    display: contents;
 }
 #our{
     margin-top: 60px;
