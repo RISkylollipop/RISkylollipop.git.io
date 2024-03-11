@@ -15,16 +15,12 @@
         }
         .firstview{
             width: 80%;
-            max-height: min-content;      
-            background-image: url(social.svg);
-            background-size: cover;
-            background-repeat: no-repeat;
-            background-attachment: fixed;
-            margin: 20px;
+            max-height: min-content; 
+            margin: auto;
             padding: 40px;
             color: white;
             font-family: 'Times New Roman', Times, serif;
-            font-size: 25px;
+            font-size: 20px;
             text-align: center;
         }
         .button{
@@ -33,7 +29,7 @@
             border-radius: 10px;
             color: rgb(105, 105, 241);
             background-color: aquamarine;
-            margin: 20px;
+            margin: 10px;
 
         }
         a{
@@ -45,27 +41,28 @@
             color: antiquewhite;
         }
         #pay{
-            color: black;
+            color: white;
             font-family: 'Times New Roman', Times, serif;
             text-align: center;
         }
-        #pay p:hover{
-            background-color: blue;
-            font-size: 25px;
+        #pay:hover{
+            font-size: 15px;
             color: white;
         }
         @media (min-width: 599px){
             .firstview{
-                background-color: aqua;
+                background-color: blue;
                 width: 70%;
                 margin: 60px auto;
             }
+            body{
+                background: white;
+            }
         }
-        @media(max-width: 399px) {
-            *{
-                padding: 0;
-                margin: 0;
-                font-family: 'Times New Roman', Times, serif;
+        @media(max-width: 399px){
+            body{
+                background: fixed;
+                background: green;
             }
         }
         .wrap{
@@ -73,19 +70,16 @@
             margin-top: 10px;
         }
         .wrap:hover{
-            background-color: rgb(7, 14, 11);
+            background-color: rgb(24, 204, 144);
             color: white;
-        }
-        #firstview{
-            position: static;
         }
 
     </style>
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="des.css">
     <link rel="shoutcut icon" href="office.jpeg" type="image/x-icon">
 </head>
 <body>
-    <header><div id="firstview">MY WEBPAGE!!!!!!</div></header>
+    <header><div id="firstview">MY WEBPAGE!</div></header>
     
     <div class="firstview" style="text-align: center;">
     <h4>WELCOME TO DATAPLANET</h4>
@@ -177,7 +171,7 @@
                 <ul>
                     NOTE:
                     <li>
-                        Successful data are not reversib
+                        Successful data are irreversible
                     </li>
                 </ul>
     
@@ -193,7 +187,7 @@
 
 </div>
 <div class="wrap">
-    <h3>ELECTRICITY BILL PAYMENTS!</h3>
+    <h3 style="word-spacing: 0;">ELECTRICITY BILL PAYMENTS!</h3>
     Electricity Bill payment has been simplified and discounted on our platform! With the help of DATAPLANET, 
     you can pay your electricity bills from the convenience of your home at no extra cost!
 </div>
@@ -212,6 +206,10 @@ You would stop wondering where your money went when you tell it where to go!
 <div class="build">
     Let Us Build You A Website Exactly Like Ours! 
     Here Is What Is in It for You.
+</div>
+
+<div class="largeimage">
+    <img src="download.jpeg" alt="download image">
 </div>
 </body>
 </html>
