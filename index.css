@@ -139,4 +139,21 @@ header {
   display: block;
   font-size: 20px; }
 
+@media (max-width: 399px) {
+  .build {
+    width: fit-content;
+    height: auto;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-weight: 500; } }
+@media (max-width: 620px) {
+  .build {
+    width: 600px;
+    height: auto;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-weight: 600; } }
+
 /*# sourceMappingURL=index.css.map */
