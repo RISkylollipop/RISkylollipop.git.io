@@ -21,6 +21,17 @@ header{
         padding: 50px;
     }
 }
+#login{
+    width: 300px;
+    height: 60vh;
+    margin: 70px auto;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    background: white;
+    line-height: 30px;
+
+}
 #our{
     margin-top: 60px;
 }
@@ -76,18 +87,6 @@ header{
     font-size: 40px;
     font-weight: 800;
     color: $color
-}
-.largeimage{
-    display: flex;
-    flex-wrap: wrap;
-
-}
-.largeimage img{
-    margin: 20px auto;
-    height: 500px;
-    width: 250px;
-    padding: 20px;
-    
 }
 .air2cash{
     width: 400px;
