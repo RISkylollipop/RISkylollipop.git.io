@@ -27,6 +27,14 @@ header {
   background: white;
   line-height: 10px; }
 
+#login input {
+  align-items: center;
+  text-align: center;
+  font-size: 20px;
+  height: 40px;
+  width: 290px;
+  border-bottom: 5px solid black; }
+
 #our {
   margin-top: 60px; }
 
