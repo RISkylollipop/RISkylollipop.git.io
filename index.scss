@@ -29,7 +29,7 @@ header{
     box-sizing: border-box;
     border-radius: 5px;
     background: white;
-    line-height: 30px;
+    line-height: 10px;
 
 }
 #our{
@@ -80,14 +80,7 @@ header{
         font-weight: bolder;
     }
 }
-.build{
-    width: 600px;
-    margin: 60px auto;
-    text-align: center;
-    font-size: 40px;
-    font-weight: 800;
-    color: $color
-}
+
 .air2cash{
     width: 400px;
     margin: 60px auto;
