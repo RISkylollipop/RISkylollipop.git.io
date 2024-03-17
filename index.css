@@ -25,7 +25,8 @@ header {
   box-sizing: border-box;
   border-radius: 5px;
   background: white;
-  line-height: 20px; }
+  line-height: 20px;
+  cursor: pointer; }
 
 #our {
   margin-top: 60px; }
